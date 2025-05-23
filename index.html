@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trillest Wears Collection</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="body">
+      <header class="header">
+        <h1>Trillest Wears</h1>
+        <p>Be comfortable in your skin - a mix of style and comfort.</p>
+      </header>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#collection">Our Collections</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+          obcaecati a minima magnam cupiditate corporis impedit nemo ducimus
+          suscipit dolores, expedita, asperiores saepe pariatur optio excepturi
+          voluptatum non laboriosam molestiae.
+        </p>
+      </section>
+
+      <section id="collection">
+        <h2>Our Collections</h2>
+
+        <ul>
+          <li>Urban Street Wears</li>
+          <li>Corporate Official Wears</li>
+          <li>Native Wears</li>
+          <li>Limited Edition and Custom Designs</li>
+        </ul>
+
+        <section class="image-display">
+          <img src="images/DSC_4949.JPG" alt="Trillest Image 1" />
+          <img src="images/DSC_4955.JPG" alt="Trillest Image 2" />
+          <img src="images/DSC_4841.JPG" alt="Trillest Image 3" />
+          <img src="images/DSC_4862.JPG" alt="Trillest Image 4" />
+          <img src="images/DSC_4898.JPG" alt="Trillest Image 5" />
+          <img src="images/DSC_4907.JPG" alt="Trillest Image 6" />
+        </section>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+
+        <div class="inline">
+          <p>
+            Email:
+            <a href="mailto:trillestwears@gmail.com">
+              trillestwears@gmail.com
+            </a>
+          </p>
+          <p>
+            Phone:
+            <a href="tel:+2348139797423"> +234 8139797423 </a>
+          </p>
+          <p>
+            TikTok:
+            <a
+              href="https://www.tiktok.com/@trillestwears"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @trillest_wears
+            </a>
+          </p>
+        </div>
+
+        <form
+          class="inline"
+          name="contact"
+          action="/form-confirmation"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <div style="display: none">
+            <label
+              >Don't fill this out if you're human: <input name="bot-field"
+            /></label>
+          </div>
+
+          <h3>Kindly reach out to us</h3>
+
+          <div>
+            <label for="first-name"> First Name: </label><br />
+            <input type="text" name="first-name" id="first-name" required />
+          </div>
+
+          <div>
+            <label for="last-name"> Last Name: </label><br />
+            <input type="text" name="last-name" id="last-name" required />
+          </div>
+
+          <div>
+            <label for="email"> Email: </label><br />
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <div>
+            <label for="phone"> Phone Number: </label><br />
+            <input type="number" name="phone" id="phone" required />
+          </div>
+
+          <div>
+            <span>Gender:</span><br />
+
+            <input type="radio" name="gender" id="male" value="Male" required />
+            <label for="male">Male</label><br />
+
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              value="Female"
+              required
+            />
+            <label for="female">Female</label><br />
+          </div>
+
+          <div>
+            <span>Preferred Collection:</span><br />
+
+            <input
+              type="checkbox"
+              name="urban-wear"
+              id="urban-wear"
+              value="Urban Wear"
+              required
+            />
+            <label for="urban-wear">Urban Wears</label><br />
+
+            <input
+              type="checkbox"
+              name="corporate-wear"
+              id="corporate-wear"
+              value="Corporate Wear"
+              required
+            />
+            <label for="corporate-wear">Corporate Wears</label><br />
+
+            <input
+              type="checkbox"
+              name="native-wear"
+              id="native-wear"
+              value="Native Wear"
+              required
+            />
+            <label for="native-wear">Native Wears</label>
+          </div>
+
+          <div>
+            <label for="contact-method"> Preferred Contact Method: </label
+            ><br />
+            <select name="contact-method" id="contact-method">
+              <option value="email">Email</option>
+              <option value="phone">Phone Call</option>
+              <option value="text">Text Message</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message"> Send a message: </label><br />
+            <textarea name="message" id="message" required></textarea>
+          </div>
+
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+
+      <footer>
+        <p>&copy;2025 Trillest Wears Collection.</p>
+      </footer>
+    </div>
+  </body>
+</html>
