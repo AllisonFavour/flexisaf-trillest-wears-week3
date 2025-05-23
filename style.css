@@ -45,13 +45,11 @@ body {
 
 .header h1 {
     font-size: 2.6rem;
-    /* color: #271d42; */
     color: #411ca5;
 }
 
 .header p {
     font-size: 0.7rem;
-    /* color: #3a3548; */
     color: #707070;
     margin-block: 0.6rem;
 }
@@ -61,24 +59,13 @@ body {
     padding: 1rem;
     padding-inline: 2rem;
     margin-block: 1.8rem;
-    /* border-block-end: 1px solid #271d42; */
 }
-
-/* .navbar > ul li {
-    display: inline-block;
-} */
-
-/* .navbar > ul li::after {
-    content: '|';
-    padding-inline-start: 0.6rem;
-} */
 
 .navbar > ul li:nth-child(2) {
     margin-block: 0.8rem;
 }
 
 .navbar > ul li a {
-    /* color: #271d42; */
     color: #411ca5;
     font-size: 1.4rem;
     font-weight: 500;
@@ -102,11 +89,6 @@ section h2 {
     margin-block-end: 1.4rem;
 }
 
-/* section p {
-    color: #3a3548; */
-    /* color: #707070;
-} */
-
 #about p {
     color: #3a3548;
     font-size: 1rem;
@@ -118,7 +100,6 @@ section h2 {
 }
 
 #collection ul li {
-    /* color: #707070; */
     color: #3a3548;
     font-size: 1rem;
     margin-block: 1rem;
@@ -140,13 +121,12 @@ section h2 {
 
 /* SECTION - CONTACT */
 #contact {
-    /* padding: 0; */
     background-color: #fff;
     color: #fff;
     text-align: center;
 }
 
-#contact .inline {
+#contact > .inline {
     display: inline-block;
     vertical-align: middle;
     margin-inline: 1.2rem;
@@ -155,12 +135,10 @@ section h2 {
 
 #contact p {
     color: #3a3548;
-    /* color: #707070; */
     font-size: 0.7rem;
     margin-block-end: 1rem;
 }
 #contact p > a {
-    /* color: #fff; */
     color: #3a3548;
     font-size: 0.9rem;
     font-weight: 700;
@@ -184,6 +162,16 @@ section h2 {
     margin-block-end: 1rem;
 }
 
+.send-btn {
+    padding: 0.2rem 1rem;
+    background-color: #fff;
+    color: #411ca5;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 
 
 /* FOOTER */
@@ -195,9 +183,6 @@ footer {
 }
 
 footer > p {
-    /* color: #271d42; */
-    /* color: #707070; */
-    /* color: #3a3548; */
     color: #411ca5;
     font-size: 1.2rem;
     font-weight: 500;
