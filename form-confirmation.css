@@ -36,6 +36,8 @@ body {
 }
 
 .body-container p {
+    min-width: 300px;
+    max-width: 600px;
     font-size: 1rem;
     color: #707070;
     margin-block: 3rem;
